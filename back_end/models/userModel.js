@@ -1,0 +1,14 @@
+
+
+
+
+const userModel=mongoose.Schema({
+
+
+
+    
+
+
+
+
+})

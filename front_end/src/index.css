@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    background-color: #f4f7f7 !important;
+    margin: 0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================== Home Page ================ */
+
+a{
+    text-decoration:none;
+  }
+  .primary-color{
+  background: #f6fafb;
+    
+  }
+  .secondary-color{
+  color: #93d1a0;
+    
+  }
+  
+  .headerOne
+  {
+  background:#0f6c76 ;
+  
+  }
+  .headerTwo{
+  color:black ;
+  
+  }
+  .buttons{
+  color: red;
+    transition:all .5s;
+  }
+  .buttons:hover{
+  transform:scale(1.1,1.1);
+  color:#0f6c76;
+  }
+  .registerBtn{
+    background:#0f6c76 !important;
+  }
+  /* homeSection-------------------- */
+  
+  .homeSection{
+  
+    background: #0f6c76;
+  width: 100%;
+  height: 100vh;
+  
+  
+  }
+  
+  .homeH{
+  
+  color: white;
+  font-size:55px;
+  
+  }
+  
+  .homeImg{
+  
+  
+  margin-top: 10%;
+  
+  
+  }
+  .imgBackgroundHome{
+  width:450px;
+  height:450px;
+  border-radius:50%;
+  background: #93d1a0;
+  }
+    /* VisdeoSection-------------------- */
+
+    #home-bg-video {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        background:  no-repeat;
+        background-size: cover;
+    }
+  /* cpurces*+------------- */
+  .courseSection{
+  
+  background:#f8fbfb ;
+  margin-top: -50px;
+  }
+  .corsesSection{
+
+    margin-top:-200px;
+    
+    }
+  .text-lower{
+  
+  font-size:60px;
+  font-weight:bold;
+  color:rgb(237, 244, 244);
+  text-shadow: 2px 2px #bb1f31;
+  letter-spacing: 10px;
+  }
+  .text-lower-left{
+    font-size:8rem;
+    color: #f2e9e4;
+    text-shadow:
+     -1px -1px 0  rgb(251, 249, 247),  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       text-shadow: 2px 2px #b7b6b6;
+  }
+  .text-lower-right{
+    font-size:5rem;
+    color: white;
+    text-shadow:
+     -1px -1px 0  rgb(161, 104, 30),  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       text-shadow: 2px 2px rgb(80, 57, 27);
+       background: #e07a5f;
+border-radius: 30px;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .upper-text{
+  
+  font-size:30px;
+  font-weight:900;
+  color:#0f6c76 ;
+  text-shadow: 2px 2px #919794;
+  
+  background: #93d0d1;
+  padding:20px;
+  opacity: .8;
+  }
+  .TransformLeftBox{
+    box-shadow: rgba(196, 115, 9, 0.2) 0px 7px 29px 0px;
+    padding:20px;
+    transition: all .5s;
+  }
+  .TransformLeftBo:hover{
+    margin-top:-15px;
+    box-shadow: rgba(196, 115, 9, 0.2) 0px 7px 29px 0px;
+    padding:20px;
+  }
+  .TransformLeftBox h1{
+    font-size:3rem;
+    color: #2ec4b6;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4a4e69;
+  }
+  
+  .imgBackground{
+    position:absolute;
+    width:400px;
+    height:400px;
+    border-radius:50%;
+  }
+  /*text-lower-right-about ----------------------------------------------------- */
+  
+.text-lower-right-about-one{
+
+    font-size:2rem;
+    color: white;
+    text-shadow:
+     -1px -1px 0  #2a9d8f,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       text-shadow: 2px 2px rgb(80, 57, 27);
+       background: #2a9d8f;
+border-radius: 10px;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
+
+}
+.text-lower-right-about-two{
+
+    font-size:2rem;
+    color: white;
+    text-shadow:
+     -1px -1px 0  rgb(161, 104, 30),  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       text-shadow: 2px 2px #264653;
+       background: #264653;
+border-radius: 10px;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
+
+}
+.text-lower-left-about{
+
+    font-size:4rem;
+    color: #f2e9e4;
+    text-shadow:
+     -1px -1px 0  rgb(251, 249, 247),  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       text-shadow: 2px 2px #b7b6b6;
+    
+}
+.text-lower-third-about{
+
+    font-size:2rem;
+    color: white;
+    text-shadow:
+     -1px -1px 0  #e5989b,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       text-shadow: 2px 2px rgb(80, 57, 27);
+       background: #e5989b;
+border-radius: 10px;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
+
+
+}
+
+  /* edmyard------------------------------- */
+  .emdyCard{
+  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius:20px;
+  }
+  
+  /* AdvertisementSection---------------------------- */
+  
+  .AdvertisementSection{
+  
+  background: url(./HomePage/assets/Adervert.jpeg) no-repeat center center/cover;
+  width:100%;
+  height:700px;
+  
+  
+  }
+  
+  /* Course Details-----------------------*/
+  
+  
+  .slideCourseBg{
+    background: linear-gradient(96.41deg,#6cc17e 10.61%,#098b99 70.66%);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 100px;
+  }
+  
+  .course-details-content .best-seller {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .course-details-content .best-seller li{
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+  }
+  
+  .course-details-content .best-seller li:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -24px;
+    width: 8px;
+    height: 8px;
+    background-color: #098b99;
+    border-radius: 50%;
+  }
+  
+  .course-details-content .admin-info a {
+    color: #098b99;
+    font-size: 15px;
+  }
+  
+  .course-details-content .admin-info img {
+    margin-right: 10px;
+    position: relative;
+    top: -5px;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+  }
+  
+  .course-details-content .admin-info span {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  
+  .course-details-content .course-tab {
+    text-align: center;
+    background-color: #f2f0ef;
+    padding: 0;
+    border: none;
+    margin: auto auto 30px;
+  }
+  
+  .course-details-content .course-tab .nav-item {
+    border: none;
+  }
+  
+  .course-details-content .course-tab .nav-item .nav-link.active {
+    color: #098b99;
+    background-color: transparent;
+  }
+  
+  .course-details-content .course-tab .nav-item .nav-link {
+    border: none;
+    width: 100%;
+    display: block;
+    padding: 30px 50px;
+    border-radius: 50px;
+    color: #0d0c0c;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+  }
+  .course-details-sidebar .sidebar-futcher .default-btn.buy:hover {
+    color: #fff;
+  }
+  
+  .course-details-sidebar .sidebar-futcher .default-btn.buy {
+    width: 100%;
+    display: block;
+    background: 0 0;
+    border: 1px solid #098b99;
+    color: #098b99;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Auth-----------------------*/
+  .tab-link li button{
+    color: #1d9693;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .tab-link li button:hover{
+    color: #1d9693;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .myFormBtn{
+    background-color: #1d9693 !important;
+  }
+  
+  .tab-content{
+    width: 100%
+  }
+  /* Contact-----------------------*/
+
+.myContact{
+  background-image: url('https://teachhub.wpenginepowered.com/wp-content/uploads/2021/08/Aug-19-The-Importance-of-Background-Knowledge-in-Understanding-Text_web-1024x662.jpg'); 
+  background-size: cover; 
+  background-position: center center;
+}
+
+.rgba-black-strong, .rgba-black-strong:after {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.course-details-sidebar .sidebar-futcher .default-btn.buy:hover .contact-btn:hover{
+  color: #fff;
+}
+
+.course-details-sidebar .sidebar-futcher .default-btn.buy, .contact-btn {
+  width: 100%;
+  display: block;
+  background: #098b99;
+  border: 1px solid #098b99;
+  /* color: #098b99; */
+}
+
+  /* Counter-----------------------*/
+.counterStats{
+    background: url(./HomePage/assets/stats-bg.jpg) no-repeat fixed center;
+    background-size: cover;
+  }
+  
+  .counterStatsBox{
+    background-color: rgba(0,0,0,0.8);
+   
+  }
+  
+  .counterStatsBox h2{
+    color: #098b99;
+  }
+  
+  .stats-item {
+    background: rgba(61, 68, 68, 0.6);
+    border-radius: 4px;
+    min-height: 170px;
+    padding: 25px 50px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    height: 200px;
+    width: 280px;
+  }
+  
+  
+  .stats-item svg{
+    color: #098b99;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+  }
+  
+  .stats-item:hover {
+    background-color: #098b99;
+  }
+  
+  .stats-item:hover svg{
+    color: #000;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+  }
+  /* --BREAKS----------------------------------------------------------- */
+  .breaksColorsImg{
+
+    margin-top:-120px;
+    height:250px;
+z-index: -1;
+  }
+  .breaksBooksImg{
+    margin-top:-120px;
+    height:350px;
+
+  }
+.breaksColorsVedio{
+
+    margin-top:-120px;
+    margin-bottom:-50px;
+    height:350px;
+
+}
+.breaksColorsFooter{
+
+    margin-top:-120px;
+    margin-bottom:-100px;
+    height:250px;
+z-index: -1;
+
+}
+.breaksColorsTransForm{
+
+margin-top: -50px;
+
+
+}
+.breaksColorsFooterChoose{
+margin-top:40px;
+
+}
+.choose{
+    margin-top: -300px;
+
+
+}
+  /* ======================================================= */
+
+  .JoinUss{
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  }
+  .imgBackgroundHomeForJoin{
+background: rgb(236, 206, 167);
+  }
+  .JoinUsSecOneWords{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .3s;
+
+
+  }
+  .JoinUsSecOne h1{
+
+    color: white;
+    text-shadow: 2px 2px 4px rgb(161, 104, 30);
+  }
+.homeImgForJoin{
+transition: all .3s;
+
+}
+  .JoinUsSecOneWords:hover{
+
+    box-shadow: rgba(232, 48, 48, 0.35) 0px 5px 15px;
+margin-top:-10px;
+  }
+
+  .homeImgForJoin:hover .imgBackgroundHomeForJoin{
+  box-shadow: rgba(232, 48, 48, 0.35) 0px 5px 15px;
+margin-top:-1px;
+
+
+  }
+  /* ======================================================= */
+  .TransformSection{
+
+margin-top: -200px;
+z-index: 100;
+
+  }
+  /* ======================================================= */
+  .breaksColorsImgTwo{
+
+    
+    height:250px;
+
+
+  }
+
+  .JoinUss .sa{
+
+    width:50%;
+  }
+  .rightStrockWord h1{
+    font-size:80px;
+    color: white;
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+   
+  }
+  .laptopSectionConntentImg{
+    transition: all .5s;
+  }
+  .imgBackgroundHomeForJoin .rightWelcome{
+
+margin-top: 200px;
+margin-left: -320px;
+font-size:4.5rem;
+color: white;
+text-shadow:
+ -1px -1px 0  rgb(161, 104, 30),  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+
+  }
+  .imgBackgroundHomeForJoin .rightWelcome .rightWelcomeSecondSpan{
+margin-left: 10.5rem;
+
+  }
+  .imgBackgroundHomeForJoin .leftWelcome{
+
+    margin-top: 200px;
+margin-left: 510px;
+width:500px;
+font-size:5rem;
+color: white;
+text-shadow:
+ -1px -1px 0  rgb(161, 104, 30),  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+
+  }
+  .laptopSection{
+
+margin:10px 0;
+
+  }
+  .laptopSectionConntent{
+    transition: all 1s;
+  }
+  .rightWelcomeFirstSpan{
+
+margin-left: -5rem;
+
+  }
+  .rightWelcomeFirstSpan,.rightWelcomeSecondSpanTwo{
+    transition: all .3s;
+
+
+  }
+   .laptopSectionConntent:hover .rightWelcomeFirstSpan {
+
+    color: rgb(161, 104, 30);
+    text-shadow:
+     -1px -1px 0  rgb(250, 250, 250),  
+      1px -1px 0 rgb(248, 246, 246),
+      -1px 1px 0 rgb(247, 244, 244),
+       1px 1px 0 rgb(249, 244, 244);
+    
+    
+      }
+   .laptopSectionConntent:hover .rightWelcomeSecondSpanTwo {
+
+    color: rgba(25, 77, 77, 0.737);
+    text-shadow:
+     -1px -1px 0  rgb(250, 250, 250),  
+      1px -1px 0 rgb(248, 246, 246),
+      -1px 1px 0 rgb(247, 244, 244),
+       1px 1px 0 rgb(249, 244, 244);
+    
+    
+      }
+/* ++++++++=============================================== */
+.PopularCourcessLamp{
+
+width:55rem;
+
+}
+
+.cutPaper{
+
+width:100%;
+height:900px;
+}
+/* +======================================================= */
+.courseSectionOurTeam{
+
+
+margin-top: -100px;
+
+}
+/* ================= Course Card =============== */
+.courseCard {
+    box-shadow: 4px 5px 14px 0px #003b30bf;
+    transition: all .3s;
+  }
+  
+  .courseCard:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0;
+  }
+  
+  .coursePrice
+  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #004e40d6;
+    border-radius: 10px 0 5px 0;
+  }
+
+  .course {
+    box-shadow: 4px 5px 14px 0px black;
+    transition: all .3s;
+  }
+  
+  .course:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0;
+  }
+  
+  .themeColor
+  {
+    background-color: #004e40d6;
+    color: white;
+    border-radius: 10px 0 5px 0;
+  }
+  
+  .themeColor:hover
+  {
+    background-color: white;
+    color: #004e40d6;
+    border: 1px solid #048654;
+    border-radius: 10px 0 5px 0;
+  }
+  
+  .meetIcon
+  {
+    color: #004e40d6;
+  }

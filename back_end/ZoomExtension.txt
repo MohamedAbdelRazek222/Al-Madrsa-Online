@@ -1,0 +1,12 @@
+
+API key
+iWawEwvzQreWGsB0-Ink0Q
+
+API secret
+kJIwLgBVYWlmk8ZFwOMpSteSFTp11QhHpJCD
+
+IM Chat History Token
+eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJKWnB4VGYyYlJiR1F1V1NleVREWThBIn0.vslwl4yxKJjKwk2FzlPtSwxEeoMTlIrnHMJNzfTbGA8
+
+JWT token
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6ImlXYXdFd3Z6UXJlV0dzQjAtSW5rMFEiLCJleHAiOjE2Njc4MzcyNjIsImlhdCI6MTY2Nzc1MDU4Mn0.T9Wsi--0IunS_mq2hZwn31vGgmBZkvNyoDuvzq5Hj1E

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>HTML Forms</h2>
+
+    <form id="slotForm">
+
+        <label for="slot_id">ID:</label><br>
+        <input type="text" id="slot_id" name="slot_id" value=""><br>
+
+        <label for="start_time">Start time:</label><br>
+        <input type="datetime-local" id="start_time" name="start_time" value=""><br>
+
+        <label for="topic">Topic:</label><br>
+        <input type="text" id="topic" name="topic" value=""><br>
+
+        <label for="meeting_id">Meeting ID:</label><br>
+        <input type="text" id="meeting_id" name="meeting_id" value=""><br>
+
+        <label for="join_url">Join Url:</label><br>
+        <input type="text" id="join_url" name="join_url" value=""><br>
+
+        <label for="start_url">Start Url:</label><br>
+        <input type="text" id="start_url" name="start_url" value=""><br><br>
+
+        <!-- post /slot -->
+        <input type="submit" value="Submit">
+        <!-- get access_token from cookie
+            if (no) {
+                try with set internal { 
+                    getting access token from cookei every 5 seconds
+                    then post to zoom /create meeting then put meeting id join url in /slot 
+                    then get /slot and update form
+                }
+
+                open get /zoomapi/token in a new tab
+            } else {
+                 post to zoom /create meeting then put meeting id join url in /slot 
+                    then get /slot and update form
+            }
+        -->
+        <input id="schedule_zoom" type="button" value="Schedule Zoom meeting">
+
+        <!-- get access_token from cookie
+            if (no) {
+                try with set internal { 
+                    getting access token from cookei every 5 seconds
+                    then get to zoom /meeting then put meeting id start url in /slot 
+                    then get /slot and update form
+                }
+
+                open get /zoomapi/token in a new tab
+            } else {
+                 get to zoom /meeting then put meeting id start url in /slot 
+                    then get /slot and update form
+            }
+        -->
+        <input id="start_zoom" type="button" value="Start Zoom meeting">
+
+    </form>
+
+    <script src="./slot.js"></script>
+
+</body>
+
+</html>
